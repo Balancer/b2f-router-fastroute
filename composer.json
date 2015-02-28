@@ -1,0 +1,21 @@
+{
+    "name": "balancer/b2f-router-fastroute",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Balancer",
+            "email": "balancer@balancer.ru"
+        }
+    ],
+
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+
+    "require": {
+		"nikic/fast-route": "*"
+    },
+
+    "autoload": {
+		"classmap": ["classes/"]
+    }
+}
