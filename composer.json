@@ -13,6 +13,7 @@
 	"minimum-stability": "dev",
 
     "require": {
+		"balancer/b2f-composer": "*",
 		"nikic/fast-route": "*"
     },
 
