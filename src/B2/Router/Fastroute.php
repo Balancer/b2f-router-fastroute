@@ -1,6 +1,8 @@
 <?php
 
-class b2f_fastroute
+namespace B2\Router;
+
+class Fastroute
 {
 	public static function register($routes)
 	{

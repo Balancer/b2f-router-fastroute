@@ -16,6 +16,12 @@
     },
 
     "autoload": {
+		"psr-0": {
+			"B2\\Router": "src/"
+		}
+	},
+
+    "autoload1": {
 		"classmap": ["classes/"]
     }
 }
