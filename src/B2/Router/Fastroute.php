@@ -8,4 +8,8 @@ class Fastroute
 	{
 		var_dump($routes);
 	}
+
+	public static function dispatch($method, $url)
+	{
+	}
 }

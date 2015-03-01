@@ -1,5 +1,6 @@
 {
     "name": "balancer/b2f-router-fastroute",
+    "description": "FastRoute adapter for BORS© Framework",
     "license": "GPL-3.0",
     "authors": [
         {
@@ -21,7 +22,8 @@
 		}
 	},
 
-    "autoload1": {
-		"classmap": ["classes/"]
-    }
+	"extra": {
+		"bors-type": "router",
+		"bors-class": "B2\\Router\\Fastroute"
+	}
 }
