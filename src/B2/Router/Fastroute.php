@@ -15,7 +15,7 @@ class Fastroute
  			// "GET /_b2f/sp/{target_url} b2f_site_preview::make_link"
 			// "GET /_cg/b2fsp/[0-9]{4}-[0-9]{2}/{hash}\.png b2f_site_preview"
 
-			list($method, $pattern, $callback) = preg_split('\s+', $r);
+			list($method, $pattern, $callback) = preg_split('/\s+/', $r);
 			B2\Composer\Cache::appendData('router/fastroute/rules', "\t\$r->addRoute('{$method}', '$pattern', '$callback');");
 		}
 
