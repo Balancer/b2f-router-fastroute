@@ -19,7 +19,7 @@
 
     "autoload": {
 		"psr-4": {
-			"B2\\Router\\": "src/"
+			"B2\\Router\\": "./"
 		}
 	},
 
