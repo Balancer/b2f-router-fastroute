@@ -8,7 +8,7 @@ class Fastroute
 
 	// Вызывается при composer update/require/install
 	// Обновляет привязку роутинга пакетов
-	public static function updateRoutes($routes)
+	public static function adds($routes)
 	{
 		foreach($routes as $r)
 		{
