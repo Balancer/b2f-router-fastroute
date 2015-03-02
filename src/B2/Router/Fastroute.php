@@ -21,7 +21,7 @@ class Fastroute
 
 		\B2\Composer\Cache::addAutoload('router/fastroute/rules', "\$dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector \$r) {\n"
 			. join("\n", \B2\Composer\Cache::getData('router/fastroute/rules'))
-			. "});\n"
+			. "\n});\n\n"
 			. "B2\\Router\\Fastroute::setDispatcher(\$dispatcher);\n"
 		);
 	}
