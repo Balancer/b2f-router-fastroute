@@ -19,7 +19,7 @@
 
     "autoload": {
 		"psr-0": {
-			"B2\\Router\\": "./"
+			"B2\\Router": "./"
 		}
 	},
 
